@@ -2,8 +2,7 @@ var myGamePiece;
 var myObstacles = [];
 var myScore;
 var flappy =  "https://www.clipartkey.com/mpngs/m/281-2812706_angry-birds-stella-angry-birds-stella.png";
-var img = "https://www.clipartkey.com/mpngs/m/281-2812706_angry-birds-stella-angry-birds-stella.png";
-img = myGamePiece
+
 
 function startGame() {
 myGameArea.start();
