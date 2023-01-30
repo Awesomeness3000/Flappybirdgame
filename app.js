@@ -79,7 +79,7 @@ var crash = true;
 if ((mybottom < othertop) || (mytop > otherbottom) || (myleft > otherright) || (myright < otherleft)) {
 crash = false;
 }
-return index2.html;
+return false;
 }
 }
 
