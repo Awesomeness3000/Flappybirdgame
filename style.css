@@ -27,4 +27,9 @@ div{
 
 myObstacle{
   color:green rgb(0,255,0);
+    border-radius:50%;
+}
+
+myGamePiece {
+    color: black rgb(0,0,0);
 }
