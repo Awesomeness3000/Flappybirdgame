@@ -32,7 +32,7 @@ this.type = type;
 if (type == "image") {
 this.image = new Image();
 this.image.src = color;
- 
+
 }
 this.width = width;
 this.height = height;
@@ -79,7 +79,7 @@ var crash = true;
 if ((mybottom < othertop) || (mytop > otherbottom) || (myleft > otherright) || (myright < otherleft)) {
 crash = false;
 }
-return false;
+return crash;
 }
 }
 
