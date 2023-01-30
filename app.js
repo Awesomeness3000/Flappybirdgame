@@ -32,7 +32,7 @@ this.type = type;
 if (type == "image") {
 this.image = new Image();
 this.image.src = color;
-
+ 
 }
 this.width = width;
 this.height = height;
