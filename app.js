@@ -3,15 +3,12 @@ var myObstacles = [];
 var myScore;
 var flappy =  "https://www.clipartkey.com/mpngs/m/281-2812706_angry-birds-stella-angry-birds-stella.png";
 
-
 function startGame() {
 myGameArea.start();
 myGamePiece = new component(30, 30, flappy, 10, 120, "image");
 myScore = new component("30px", "Consolas", "#5f27cd", 280, 40, "text");
 }
 
-//this helps create instant
-//insert before pastes an element as a positionlike 2 for positioned as second element
 var myGameArea = {
 canvas: document.createElement("canvas"),
 start: function () {
@@ -82,7 +79,7 @@ var crash = true;
 if ((mybottom < othertop) || (mytop > otherbottom) || (myleft > otherright) || (myright < otherleft)) {
 crash = false;
 }
-return crash;
+return index2.html;
 }
 }
 
